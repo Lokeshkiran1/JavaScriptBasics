@@ -5,7 +5,8 @@ var c=a+b;//it adds values of a and b
 //console.log(c);//prints sum of 100 and 200
 
 /*multiline
-commit*/
+commit s   ====multi lines
+*/
 
 var x=100;
 var _value='lokesh';
