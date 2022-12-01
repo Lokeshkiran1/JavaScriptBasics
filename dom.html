@@ -1,0 +1,120 @@
+<!--Accessing field value by document object
+ <script type="text/javascript">  
+    function printvalue(){  
+    var name=document.form1.name.value;  
+    alert("Welcome: "+name);  
+    }  
+    </script>  
+      
+    <form name="form1">  
+    Enter Name:<input type="text" name="name"/>  
+    <input type="button" onclick="printvalue()" value="print name"/>  
+    </form> 
+
+//get element by ID()
+ <script type="text/javascript">  
+    function getcube(){  
+    var number=document.getElementById("number").value;  
+    alert(number*number*number);  
+    }  
+    </script>  
+    <form>  
+    Enter No:<input type="text" id="number" name="number"/><br/>  
+    <input type="button" value="cube" onclick="getcube()"/>  
+    </form> 
+
+//get element by name
+
+<script type="text/javascript">
+    function totalElements(){
+        var allGenders=document.getElementsByName("gender");
+        alert("Total Genders:"+allGenders.length);
+    }
+</script>
+<form>
+    Male:<input type="radio" name="gender" value="male">
+    Female:<input type="radio" name="gender" value="female">
+    <input type="button" onclick="totalElements()" value="Total Genders">
+</form>
+
+//document.getElementByTagName ex 1
+<script type="text/javascript">
+    function countpara(){
+        var totalpara=document.getElementsByTagName("p");
+        alert("total p tags are:"+totalpara.length);
+    }
+</script>
+<p>this is a paragraph</p>
+<p>here we are counting number of paragraphs</p>
+<p>lets see simple example</p>
+<button onclick="countpara()">count paragraph</button>
+
+
+<script type="text/javascript">
+    function counth2(){
+        var totalh2=document.getElementsByTagName("h2");
+        alert("total h2 tags are:"+totalh2.length);
+    }
+    function counth3(){
+        var totalh3=document.getElementsByTagName("h3");
+        alert("total h3 tags are:"+totalh3.length)
+    }
+</script>
+<h2>this is h2 tag</h2>
+<h2>from h2</h2>
+<h3>from h3</h3>
+<h3>this is h3 tag</h3>
+<h3>h3 h3 tag</h3>
+<button onclick="counth2()">counth2</button>
+<button onclick="counth3()">counth3</button>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myForm">
+        <input type="button"value="comment"onclick="showCommentForm()">
+        <div id="myLocation"></div>
+    </form>
+</body>
+<script type="text/javascript">
+    function showCommentForm(){
+        var data="Name:<input type='text' name='name'><br>Comment:</br><textarea rows='5' cols='80'></textarea><br><input type='submit' value='Post Comment'>";
+        document.getElementById('myLocation').innerHTML=data;
+    }
+</script>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inner HTML Show Or Hide</title>
+    <script>
+        var flag=true;
+        function commentform(){
+            var cform="<form action='Comment'>Enter Name:<br><input type='text' name='name'/><br/>Enter Email:<br><input type='email' name='email'/><br>Enter Comment:<br/><textarea rows='5' cols='70'></textarea><br><input type='submit' value='Post Comment'/></form>";
+            if(flag){  
+                document.getElementById("mylocation").innerHTML=cform;  
+                flag=false;  
+            }else{  
+                document.getElementById("mylocation").innerHTML="";  
+                flag=true;  
+            } 
+        } 
+    </script>
+</head>
+<body>
+    <button onclick="commentform()">Comment</button>
+    <div id="mylocation"></div>
+</body>
+</html>-->
+
