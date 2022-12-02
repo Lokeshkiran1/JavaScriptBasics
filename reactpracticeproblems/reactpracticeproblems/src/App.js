@@ -5,6 +5,9 @@ import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Greeting from './components/Greeting';
 import Hello from './components/Hello';
+import SayHi from './components/properties';
+import Property from './components/property';
+import Props from './components/props';
 
 function App() {
   return (
@@ -12,8 +15,25 @@ function App() {
       {/* <Wishes />
       <Greet />
       <Welcome />
-      <Greeting /> */}
+      <Greeting />
       <Hello />
+      <SayHi name="Naveen"/>
+      <SayHi name="Kumar"/>
+      <SayHi name="Anvith"/>
+      <Property name="Naveen" film="Avatar"/>
+      <Property name="Kumar" film="Fast & Furious"/>
+      <Property name="Anvith" film="Luci"/>
+      <Props name="Dhoni" sport="cricket">
+        <p>I guess so !!!!!!!!</p>
+      </Props>
+      <Props name="Ronaldo" sport="FootBall">
+        <button>Yes </button><button> No</button>
+      </Props>
+      <Props name="Pavan" sport="Kabaddi">
+        <button>Yes</button><button>No</button>
+      </Props>*/}
+      <Props name="Messi" sport="FootBall"/>
+      <Props name="sachin" sport="Cricket"/>
     </div>
   );
 }
