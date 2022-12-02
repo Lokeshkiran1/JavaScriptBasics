@@ -4,14 +4,16 @@ import Wishes from './components/Wishes';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Greeting from './components/Greeting';
+import Hello from './components/Hello';
 
 function App() {
   return (
     <div className="App">
-      <Wishes />
+      {/* <Wishes />
       <Greet />
       <Welcome />
-      <Greeting />
+      <Greeting /> */}
+      <Hello />
     </div>
   );
 }
