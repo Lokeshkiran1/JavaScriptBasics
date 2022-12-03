@@ -10,11 +10,13 @@ import Property from './components/property';
 import Props from './components/props';
 import Message from './components/MessageStateC';
 import Cart from './components/CartStateC';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
-      <Cart />
+      <Counter />
+      {/* <Cart /> */}
       {/* <Message />
       <Wishes />
       <Greet />
