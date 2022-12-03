@@ -8,11 +8,15 @@ import Hello from './components/Hello';
 import SayHi from './components/properties';
 import Property from './components/property';
 import Props from './components/props';
+import Message from './components/MessageStateC';
+import Cart from './components/CartStateC';
 
 function App() {
   return (
     <div className="App">
-      {/* <Wishes />
+      <Cart />
+      {/* <Message />
+      <Wishes />
       <Greet />
       <Welcome />
       <Greeting />
@@ -31,9 +35,9 @@ function App() {
       </Props>
       <Props name="Pavan" sport="Kabaddi">
         <button>Yes</button><button>No</button>
-      </Props>*/}
+      </Props>
       <Props name="Messi" sport="FootBall"/>
-      <Props name="sachin" sport="Cricket"/>
+      <Props name="sachin" sport="Cricket"/>*/}
     </div>
   );
 }
