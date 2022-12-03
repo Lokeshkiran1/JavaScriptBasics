@@ -11,11 +11,15 @@ import Props from './components/props';
 import Message from './components/MessageStateC';
 import Cart from './components/CartStateC';
 import Counter from './components/Counter';
+import Destr from './components/DestructureFunc';
+import DestrClass from './components/DestructureClass';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <DestrClass name='Sachin' movie='cricket'/>
+      {/* <Destr name='Sachin' movie='cricket'/> */}
+      {/* <Counter /> */}
       {/* <Cart /> */}
       {/* <Message />
       <Wishes />
