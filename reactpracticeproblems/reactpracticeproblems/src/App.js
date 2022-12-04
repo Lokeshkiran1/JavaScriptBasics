@@ -16,11 +16,13 @@ import DestrClass from './components/DestructureClass';
 import FunctionClick from './components/FunctionClick';
 import FunctionClick1 from './components/FunctionClick1';
 import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBindling';
 
 function App() {
   return (
     <div className="App">
-      <ClassClick />
+      <EventBind />
+      {/* <ClassClick /> */}
       {/* <FunctionClick1 /> */}
       {/* <FunctionClick /> */}
       {/* <DestrClass name='Sachin' movie='cricket'/> */}
