@@ -13,11 +13,17 @@ import Cart from './components/CartStateC';
 import Counter from './components/Counter';
 import Destr from './components/DestructureFunc';
 import DestrClass from './components/DestructureClass';
+import FunctionClick from './components/FunctionClick';
+import FunctionClick1 from './components/FunctionClick1';
+import ClassClick from './components/ClassClick';
 
 function App() {
   return (
     <div className="App">
-      <DestrClass name='Sachin' movie='cricket'/>
+      <ClassClick />
+      {/* <FunctionClick1 /> */}
+      {/* <FunctionClick /> */}
+      {/* <DestrClass name='Sachin' movie='cricket'/> */}
       {/* <Destr name='Sachin' movie='cricket'/> */}
       {/* <Counter /> */}
       {/* <Cart /> */}
