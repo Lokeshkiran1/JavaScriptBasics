@@ -19,11 +19,13 @@ import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBindling';
 import ParentComponent from './components/methodAsProps/ParentComponent';
 import UserGreeting from './components/conditionalRendering/ConditionalRendering';
+import HookCounter from './components/usestatepreviousstate/HookCounter';
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
+      <HookCounter></HookCounter>
+      {/* <UserGreeting /> */}
       {/* <ParentComponent /> */}
       {/* <EventBind /> */}
       {/* <ClassClick /> */}
