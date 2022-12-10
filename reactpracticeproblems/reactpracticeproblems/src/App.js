@@ -17,11 +17,15 @@ import FunctionClick from './components/FunctionClick';
 import FunctionClick1 from './components/FunctionClick1';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBindling';
+import ParentComponent from './components/methodAsProps/ParentComponent';
+import UserGreeting from './components/conditionalRendering/ConditionalRendering';
 
 function App() {
   return (
     <div className="App">
-      <EventBind />
+      <UserGreeting />
+      {/* <ParentComponent /> */}
+      {/* <EventBind /> */}
       {/* <ClassClick /> */}
       {/* <FunctionClick1 /> */}
       {/* <FunctionClick /> */}
