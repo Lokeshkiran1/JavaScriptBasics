@@ -21,11 +21,15 @@ import ParentComponent from './components/methodAsProps/ParentComponent';
 import UserGreeting from './components/conditionalRendering/ConditionalRendering';
 import HookCounter from './components/usestatepreviousstate/HookCounter';
 import HookArray from './components/usestateobject/HookArray';
+import ClassCounter from './components/useeffect/ClassCounter';
+import HookEffect from './components/useeffect/SideEffectUsingHooks';
 
 function App() {
   return (
     <div className="App">
-      <HookArray />
+      <HookEffect />
+      {/* <ClassCounter /> */}
+      {/* <HookArray /> */}
       {/* <HookObject /> */}
       {/* <HookCounter></HookCounter> */}
       {/* <UserGreeting /> */}
